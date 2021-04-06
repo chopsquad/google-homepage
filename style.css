@@ -1,15 +1,7 @@
 body{
     background-color: white;
     
-}
-#signin{
-    padding: 12px;
-    border-radius: 10px;
-    border-color: lightskyblue;
-    background-color: lightskyblue;
-    text-align: center;
-    
-}
+}   
 .header {
     background-color: white;
     list-style: none;
@@ -32,4 +24,52 @@ body{
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 10px;
+}
+#signin{
+    padding: 12px;
+    border-radius: 10px;
+    border-color: lightskyblue;
+    background-color: lightskyblue;
+    text-align: center;
+}
+.fabfa-buromobelexperte {
+ font-size: 30px;
+}
+.googlediv{
+    padding-top: 20%;
+    text-align: center;
+}
+.searchdiv{
+    text-align: center;
+    padding-top: 20px;
+}
+.searchdiv input{
+    width: 600px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px lightgray solid;
+
+}
+searchdiv button{
+    float: left;
+    width: 50px;
+    font-size: 15px;
+    height: 30px;
+}
+.buttondiv {
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+.buttondiv button {
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background-color:rgba(211, 211, 211, 0.13);
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    margin: 20px;
 }
