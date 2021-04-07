@@ -1,29 +1,17 @@
 body{
     background-color: white;
+    height: 100vh;
+    margin: 0;
     
 }   
-.header {
-    background-color: white;
-    list-style: none;
+header {
     padding: 0;
     margin: 0;
 
     
 }
-.header1 {
-    display: block;
-    float: left;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 10px;
-    
-}
-.header2 {
-    display: block;
-    float: right;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 10px;
+header nav {
+    padding: 10px;
 }
 #signin{
     padding: 12px;
@@ -31,9 +19,6 @@ body{
     border-color: lightskyblue;
     background-color: lightskyblue;
     text-align: center;
-}
-.fabfa-buromobelexperte {
- font-size: 30px;
 }
 .googlediv{
     padding-top: 20%;
@@ -44,6 +29,9 @@ body{
     padding-top: 20px;
 }
 .searchdiv input{
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
     width: 600px;
     height: 45px;
     border-radius: 20px;
@@ -61,7 +49,6 @@ searchdiv button{
     text-align: center;
     
 }
-
 .buttondiv button {
     text-align: center;
     font-size: 15px;
@@ -72,4 +59,30 @@ searchdiv button{
     height: 40px;
     width: 150px;
     margin: 20px;
+}
+footer{
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 5px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+footer nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    
+}
+.footerdiv :nth-child(1) {
+    justify-content: start;
+    
+    
+} 
+.footerdiv :nth-child(2) {
+    justify-content: flex-end;
+    
 }
